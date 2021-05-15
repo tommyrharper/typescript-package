@@ -1,0 +1,20 @@
+{
+  "name": "typescript-package",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "devDependencies": {
+    "@types/react": "^17.0.5"
+  },
+  "peerDependencies": {
+    "react": "^16.*"
+  }
+}
